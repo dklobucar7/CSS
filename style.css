@@ -291,3 +291,38 @@ display: flex;
     background-color: #EDF1F3;
     flex:1;
 }
+
+.info-bar{
+    background-color: #fff;
+    height: 50px;
+    border-bottom: 1px solid #d6dde1;
+    padding: 0 30px;
+    
+
+}
+.breadcrumbs {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size:12px;
+    
+    
+
+}
+.breadcrumbs__link{
+
+
+}
+.breadcrumbs__icon{
+
+
+}
+.breadcrumbs__name{
+  
+
+
+}
+
+.button{
+
+
+}
