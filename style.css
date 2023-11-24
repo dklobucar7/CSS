@@ -297,8 +297,9 @@ display: flex;
     height: 50px;
     border-bottom: 1px solid #d6dde1;
     padding: 0 30px;
-    
-
+    display: flex;
+    align-items: center; /*When we use flex, by default it is align-items: stretch and it looks ugly*/
+    justify-content: space-between;
 }
 .breadcrumbs {
     text-transform: uppercase;
@@ -309,20 +310,35 @@ display: flex;
 
 }
 .breadcrumbs__link{
+    color:#A6ADB1;
+    text-decoration: none;
+
+
 
 
 }
 .breadcrumbs__icon{
-
+    color:#A6ADB1;
+    margin: 0 13px;
 
 }
 .breadcrumbs__name{
-  
-
-
+  color: #2E3335;
+  font-weight: 500;
 }
 
 .button{
+background-color: #375BB6;
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding: 8px 20px;
+cursor: pointer;
+border-radius: 500px;
+transition: all 0,4s;
+}
 
-
+.button:hover,
+.button:focus {
+    background-color: #26438D;
 }
